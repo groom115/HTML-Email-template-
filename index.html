@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HTML and CSS with Classes</title>
+    <style>
+      /* Define CSS styles using classes */
+      body {
+        background-color: var(--base-dark-0210, #f2f2ff);
+        display: flex;
+        justify-content: center;
+      }
+      .heading {
+        margin-top: 32px;
+        background-color: black;
+      }
+      .mainBody {
+        margin-top: 24px;
+        background-color: var(--base-light-600, #fff);
+        width: 600px;
+        border-radius: 16px;
+      }
+      .image1 {
+        background-color: bisque;
+        height: 242px;
+        overflow: hidden;
+        border-top-left-radius: 16px;
+        border-top-right-radius: 16px;
+      }
+      .text1 {
+        color: var(--black-600, #1e1e1f);
+        text-align: center;
+        font-family: Lexend;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+        margin-top: 58px;
+      }
+      .module1 {
+        display: flex;
+        padding: 16px 24px 25px 24px;
+        flex-direction: column;
+        align-items: flex-start;
+        border-radius: 16px;
+        gap: 22px;
+        background: #f7f7fb;
+        margin-top: 24px;
+        margin-right: 93px;
+        margin-left: 79px;
+      }
+      .mIcon1 {
+        flex: row;
+      }
+      .m1Text1 {
+        color: var(--violet-600, #715fe8);
+        text-align: center;
+        font-family: Lexend;
+        font-size: 10px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+      .earning {
+        color: var(--black-600, #1e1e1f);
+        text-align: center;
+        font-family: Lexend;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-top: 6px;
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <div class="heading">content</div>
+      <div class="mainBody">
+        <div class="image1">content</div>
+        <div>
+          <h1 class="text1">This Week's Journey</h1>
+          <div class="module1">
+            <div>
+              <div class="mIcon1">
+                <h1 class="m1Text1">MODULE 1</h1>
+                <div></div>
+              </div>
+              <h1 class="earning">Earnings</h1>
+            </div>
+            <div>
+              <h1 class="earning1">Earnings</h1>
+              <h1 class="earning2">Earnings</h1>
+              <h1 class="earning3">Earnings</h1>
+            </div>
+          </div>
+          <div class="module2"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
